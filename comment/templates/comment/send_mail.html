@@ -1,0 +1,4 @@
+{% autoescape off %}
+    <p>{{ comment_text }}</p> <!-- 消除邮件p标签的显示，这里可以加css样式进行修饰,其实好像没什么用 -->
+    <a href="http://localhost:8000{{ url }}">点击查看</a>
+{% endautoescape %}
